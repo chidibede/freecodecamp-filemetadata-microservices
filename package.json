@@ -4,18 +4,20 @@
 	"description": "API project for freeCodeCamp",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"dev": "nodemon server.js"
 	},
 	"dependencies": {
-		"express": "^5.0.0-alpha.2",
-		"cors": "^2.8.1"
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-fileupload": "^1.1.10"
 	},
 	"engines": {
-		"node": "4.4.5"
+		"node": "12.18.3"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/chidibede/freecodecamp-filemetadata-microservices"
 	},
 	"keywords": [
 		"node",
